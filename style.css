@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body{
+    margin: 0px;
+    padding: 0;
+    font-family:'poppins', sans-serif, arial;
+    color: hsl(240, 61%, 10%);
+    background-color: rgb(222, 241, 238);
+}
+.container_top{
+    height:90vh;
+    width:100%;
+    margin-right: 50px;
+    background-color: rgb(222, 241, 238);
+    background-image: url(./media/foto_redimensis.png);
+    background-repeat: no-repeat;
+    background-size: content;
+    background-position: 120vh;
+}
+.header nav{
+    width: auto;
+    height: auto;
+    text-align:;
+    background-color: rgb(33, 80, 77);
+    box-shadow: 1px 1px 6px rgb(61, 63, 62);
+    }
+.header nav ul{
+    max-width: auto;
+    list-style: none;
+    padding: 0;
+}
+.header nav ul li{
+    display: inline;
+}
+.header nav ul li a{
+    color: white;
+    font-size: 13pt;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition:.7s ease-in-out;
+
+}
+.header nav ul li a:hover{
+    background-color: rgb(138, 209, 124);
+}
+
+.quemsou{
+    margin-left: 100px;
+    margin-top: 100px;
+
+}
+h1{
+    font-size: 70px;
+    font-weight: bold;
+    padding: 0px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    /*esse uppercase é só para mudar o texto para maiusculas*/
+}
+h2{
+    font-size: 30px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.socialmedia{
+    font-size: 16px;
+    display: flex;
+    margin-top: 2rem;
+}
+.socialmedia a {
+    text-decoration: none;
+    color:rgb(10, 10, 41);
+    padding: 1rem 4rem;
+    border: 1px solid rgb(10, 10, 41);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .7s ease-in-out;
+    }
+a:link:hover{
+    background-color:rgb(138, 209, 124);
+}
+
+.container{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: -2rem 0;
+    margin-bottom: 100px;
+
+}
+.card-container{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+}
+.card{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 3rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: rgb(204, 204, 204);
+    background-image: url('#');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter:grayscale(0.5);
+    color:rgb(10, 10, 41);
+    cursor: pointer;
+    transition: 0.5 ease-in-out; 
+}
+.card-text{
+    width: 40%;
+    letter-spacing: 1px;
+    color: rgb(10, 10, 41);
+    display: flex;
+
+}
+.card-wrapper{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.card-wrapper::before{
+    content:'';
+    position:absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+    border: 1px rgb(236, 186, 186);
+    opacity: 0;
+    transition: 0.5 ease-in-out;
+}
+.card-wrapper h2{
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0%;
+    transition: 0.7s ease-in-out;
+}
+.card-wrapper p{
+    font-size: 0;
+    visibility: visible;
+    opacity: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.7s ease-in-out;
+}
+.card:hover{
+    filter:unset
+}
+
+
+
+
+
+
+
+
+.footer{
+    background-color: rgb(33, 80, 77);
+    width: 100%;
+    display: inline-block;
+    height: 20vh;
+    margin-bottom: 15px;
+    margin-top: 0rem;
+    box-shadow: 1px 1px 6px rgb(61, 63, 62);
+}
+.container_{
+    display: inline-flex;
+    width: 100%;
+    height: 20vh;
+    box-sizing: border-box;
+
+
+}
+.allrights{
+    font-size: 14px;
+    background-color: rgb(33, 80, 77);
+    display: inline-block;
+    margin-top: 90px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: left;
+    color: white;
+}
+.tel{
+    width: 500px;
+    height: 100%;
+    margin-top: 2rem;
+    margin-left: 400px;
+    display: inline-block;
+    color: white;
+}
+
+
+
+#tel{
+    font-size: 17px;
+    font-weight: bolder;
+    box-sizing: border-box;
+    color: white;
+}
+#mail{
+    font-size: 17px;
+    font-weight: bolder;
+    box-sizing: border-box;
+    color: white;
+}
