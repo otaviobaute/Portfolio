@@ -1,5 +1,5 @@
 # baute.database
-initial test repository
+
 Esse projeto é um primeiro desafio que me propus para treinar meus conhecimentos e desenvolver minhas habilidades na construção de páginas web.
 Entretanto esse é um portfólio que permanecerá em construção por algum tempo pois incluirei novos projetos que for desenvolvendo e enviando para o GitHub.
 Esse primeiro projeto foi importante para eu me familiarizar com o uso de Divs e sua estilização via CSS3.
